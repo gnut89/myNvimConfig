@@ -14,6 +14,7 @@ set listchars=tab:\¦\
                     
 
 
+
 "Setting using powershell to Floaterm
 set shell=powershell
 set shellcmdflag=-command
@@ -34,7 +35,9 @@ call plug#begin('C:\Users\Tung\AppData\Local\nvim\plugged')
 
     "Theme
     Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-    Plug 'Mofiqul/dracula.nvim'
+    Plug 'dracula/vim', { 'as': 'dracula' }
+
+
 
 
     "File browser
@@ -60,11 +63,13 @@ call plug#begin('C:\Users\Tung\AppData\Local\nvim\plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jiangmiao/auto-pairs'
 
+
+
 call plug#end()
 
 "set theme to
-colorscheme catppuccin
-"colorscheme dracula
+"colorscheme catppuccin
+colorscheme dracula
 
 
 let nvim_settings_dir = 'C:\Users\Tung\AppData\Local\nvim\settings'
