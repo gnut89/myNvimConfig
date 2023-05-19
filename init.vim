@@ -38,8 +38,6 @@ call plug#begin('C:\Users\Tung\AppData\Local\nvim\plugged')
     Plug 'dracula/vim', { 'as': 'dracula' }
 
 
-
-
     "File browser
     Plug 'preservim/nerdtree'                       "File browser
     Plug 'Xuyuanp/nerdtree-git-plugin'              "Git status plugin
